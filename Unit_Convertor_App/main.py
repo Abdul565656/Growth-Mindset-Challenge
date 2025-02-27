@@ -42,7 +42,7 @@ def convert_units(value, from_unit, to_unit, conversion_dict):
 
 def main():
     add_bg_from_url()
-    st.markdown("<div class='title-text'>🌍 Google-style Unit Converter 🌐</div>", unsafe_allow_html=True)
+    st.markdown("<div class='title-text'>🌍 Unit Converter Project Made By Abdullah Kashif 🌐</div>", unsafe_allow_html=True)
     
     categories = {
         "Length": {"Meter": 1, "Kilometer": 1000, "Centimeter": 0.01, "Millimeter": 0.001, "Mile": 1609.34, "Yard": 0.9144, "Foot": 0.3048, "Inch": 0.0254},
