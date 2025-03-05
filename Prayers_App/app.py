@@ -94,7 +94,7 @@ else:
 st.markdown("<h2>📖 Listen to Quran Recitation</h2>", unsafe_allow_html=True)
 
 # Default Recitation (You can replace this with a local file or another online URL)
-recitation_url = "097.mp3"  # Surah Al-Fatiha by Al-Sudais
+recitation_url = "https://download.quranicaudio.com/quran/abdullaah_3awwaad_al-juhaynee/055.mp3"  # Surah Al-Fatiha by Al-Sudais
 
 if st.button("▶️ Play Recitation"):
     st.audio(recitation_url, format="audio/mp3")
