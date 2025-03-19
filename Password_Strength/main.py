@@ -56,9 +56,12 @@ if st.button("Generate Password"):
     st.success("✅ Your secure password:")
     st.code(new_password, language="")
 
-    # Styled Copy Button
-    def copy_to_clipboard():
-        pyperclip.copy(new_password)
+   # Styled Copy Button
+def copy_to_clipboard(password):
+    try:  # Correctly indented
+        pyperclip.copy(password)
         st.success("📋 Password copied to clipboard!")
+    except pyperclip.PyperclipException:
+        st.error("❌ Clipboard access is not supported in this environment. Please copy manually.")
 
-    st.button("📋 Copy to Clipboard", on_click=copy_to_clipboard)
+st.button("📋 Copy to Clipboard", on_click=lambda: copy_to_clipboard(new_password))

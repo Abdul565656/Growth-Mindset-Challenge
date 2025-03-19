@@ -1,0 +1,58 @@
+[
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "year": 1960,
+        "genre": "Literary Fiction",
+        "read": true
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "year": 1949,
+        "genre": "Dystopian Fiction",
+        "read": false
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "year": 1937,
+        "genre": "Fantasy",
+        "read": true
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "year": 1813,
+        "genre": "Romance",
+        "read": false
+    },
+    {
+        "title": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "year": 2003,
+        "genre": "Mystery Thriller",
+        "read": true
+    },
+    {
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "year": 2008,
+        "genre": "Young Adult",
+        "read": false
+    },
+    {
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "year": 1965,
+        "genre": "Science Fiction",
+        "read": true
+    },
+    {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "year": 1988,
+        "genre": "Philosophical Fiction",
+        "read": false
+    }
+]
